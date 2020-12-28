@@ -12,13 +12,10 @@ If you do not want to clone,go to step 2.Clone this repository to any desired lo
 
 or download as a zip file and extract.
 
-##### Step 2 :
-**If you skipped step 1**:
-   + So you do not want to clone my repo,it is fine :(
-   + You can just download the **kvstore_JAR** file from my repo by clicking on it and pressing the download button on the right.
-   + Add **kvstore_JAR** file as well as the **jsonjar(See Prerequisites)** file to your project's **build path** by following the below instructions.
-   
-Now ,add the downloaded jar file from prerequisites to the build path.
+
+###### Step 2 (YOU CLONED, see below if you did not clone):
+
+Add the downloaded **json_jar** file from prerequisites to the build path.
 
 Follow following steps to add a jar file to build path for Eclipse : 
 
@@ -27,10 +24,23 @@ Follow following steps to add a jar file to build path for Eclipse :
 3. Click the Libraries tab.
 4. Click "Add External JARs", select the JAR file that you downloaded, then click OK.
    
+Now you can simply run the EndUser class in the default package to use your KVStore.This is the end.
 
+###### Step 2 (YOU DID NOT CLONE,using kvstore_JAR):
 
-###### Step 3:
-Create a new class and import the kvstore package or you can run the EndUser class in the default package and ignore step 2 & 3.
++ So you do not want to clone my repo,it is fine :(
+   + Create a java project.
+   + Download the **kvstore_JAR** file from my repo by clicking on it and pressing the download button on the right.
+   + Add **kvstore_JAR** file as well as the **jsonjar(See Prerequisites)** file to your project's **build path** by following the below instructions.
+   
+
+1. Right-click the project folder and click Properties.
+2. Click Java Build Path in the left pane.
+3. Click the Libraries tab.
+4. Click "Add External JARs", select the JAR file that you downloaded, then click OK.
+   
+
+###### Step 3
 Create a KVStore object.
 
 `KVStore obj = new KVStore();`
