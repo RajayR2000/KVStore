@@ -3,12 +3,20 @@
 #### How to use?
 
 ###### Step 1:
-After cloning the repository.Create a new class and import the kvstore package or you can make use of the EndUser class in the default package.
+Clone this repository to any desired location on your system:
+
+`https://github.com/RajayR2000/KVStore.git` 
+
+or download as a zip file and extract.
+
+
+###### Step 2:
+Create a new class and import the kvstore package(or you can use the EndUser class that I have created in the default package).
 Create a KVStore object.
 
 `KVStore obj = new KVStore();`
 
-###### Step 2:
+###### Step 3:
 Initialise JSON object with the json value you want.
 This initialisation might throw JSONException,so you might have to deal with that.
 After creating the JSON object,you can now call the methods that you want(Create,Read,Delete)
