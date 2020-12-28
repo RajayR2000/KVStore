@@ -11,9 +11,9 @@ Clone this repository to any desired location on your system:
 
 or download as a zip file and extract.Now ,add the downloaded jar file from prerequisites to the build path.
 
-Follow following steps for Eclipse : 
+Follow following steps to add jar file to build path for Eclipse : 
 
-1. Right-click the project folder for the project on which you are working, and click Properties.
+1. Right-click the project folder and click Properties.
 2. Click Java Build Path in the left pane.
 3. Click the Libraries tab.
 4. Click Add JARs, select the JAR file that you downloaded, then click OK.
