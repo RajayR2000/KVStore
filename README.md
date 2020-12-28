@@ -2,7 +2,8 @@
 
 #### How to use?
 #### Prerequisites
-1.You need to download the json-jar file from https://code.google.com/archive/p/org-json-java/downloads.
+1. Java JDK.
+2. You need to download the json-jar file from https://code.google.com/archive/p/org-json-java/downloads.
 
 ###### Step 1:
 Clone this repository to any desired location on your system:
