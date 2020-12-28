@@ -92,3 +92,10 @@ public class ClassName extends TimerTask
 
 }
 ```
+___________________________
+### Screenshots
+
+Output after you run the EndUser.java file
+
+![Screenshot (6)](https://user-images.githubusercontent.com/28715027/103212927-30bfca00-4932-11eb-9fde-75b913e69f29.png)
+
