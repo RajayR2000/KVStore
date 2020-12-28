@@ -34,6 +34,7 @@ Now you can simply run the EndUser class in the default package to use your KVSt
    + Download the **kvstore_JAR** file from my repo by clicking on it and pressing the download button on the right.
    + Add **kvstore_JAR** file as well as the **jsonjar(See Prerequisites)** file to your project's **build path** by following the below instructions.
    
+Follow following steps to add a jar file to build path for Eclipse : 
 
 1. Right-click the project folder and click Properties.
 2. Click Java Build Path in the left pane.
