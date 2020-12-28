@@ -21,7 +21,7 @@ Follow following steps to add jar file to build path for Eclipse :
 
 
 ###### Step 2:
-Create a new class and import the kvstore package(or you can use the EndUser class that I have created in the default package).
+Create a new class and import the kvstore package or you can run the EndUser class in the default package and ignore step 2 & 3.
 Create a KVStore object.
 
 `KVStore obj = new KVStore();`
