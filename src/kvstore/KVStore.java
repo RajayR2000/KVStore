@@ -9,11 +9,13 @@ public class KVStore
 {
     private HashMap<String, String> map;
     private String path;
-
+    private long pid;
+    
     public KVStore()
     {
         map = new HashMap<String, String>();
-        path="E:\\" + "keystore.ser";
+        pid = ProcessHandle.current().pid();
+        path="E:\\" +pid +"_keystore.ser";
         File file = new File(path);
         
         try {
@@ -36,7 +38,8 @@ public class KVStore
     	}
     	
         map = new HashMap<String, String>();
-        String newPath = path + "keystore.ser"; 
+        pid = ProcessHandle.current().pid();
+        String newPath = path + File.separator+ pid +"_keystore.ser"; 
         		
         File file = new File(newPath);
     
@@ -99,7 +102,7 @@ public class KVStore
         storeMap(path,map);
 
         if(time > 0) {
-        	System.out.println("The pair with key "+ key + "will be deleted after " + time + " seconds");
+        	System.out.println("The pair with key "+ key + " will be deleted after " + time + " seconds");
         	 new Timer().schedule(new TTL(key,path), time*1000);
         }
 

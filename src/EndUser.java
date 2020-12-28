@@ -19,7 +19,7 @@ public class EndUser {
 			
 			obj.create("John" , j1);
 			obj.create("Sam" , j2 , 10);
-			obj.delete("Sam");
+
 		}
 		catch(Exception e) {
 			System.out.println(e);
