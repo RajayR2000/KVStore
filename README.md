@@ -15,7 +15,8 @@ or download as a zip file and extract.
 ##### Step 2 :
 **If you skipped step 1**:
    + So you do not want to clone my repo,it is fine :(
-   + You can just download the **kdstore_JAR** file from my repo.And Add **kdstore_JAR** file as well as the **jsonjar(See Prerequisites)** file to your project's **build path** by following the below instructions.
+   + You can just download the **kvstore_JAR** file from my repo by clicking on it and pressing the download button on the right.
+   + Add **kvstore_JAR** file as well as the **jsonjar(See Prerequisites)** file to your project's **build path** by following the below instructions.
    
 Now ,add the downloaded jar file from prerequisites to the build path.
 
