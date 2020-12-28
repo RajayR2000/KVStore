@@ -5,7 +5,7 @@
 1. Java JDK.
 2. You need to download the json-jar file from https://code.google.com/archive/p/org-json-java/downloads.
 
-##### Step 1:
+#### Step 1:
 If you do not want to clone,go to step 2.Clone this repository to any desired location on your system:
 
 `https://github.com/RajayR2000/KVStore.git` 
@@ -13,7 +13,7 @@ If you do not want to clone,go to step 2.Clone this repository to any desired lo
 or download as a zip file and extract.
 
 
-##### Step 2 (YOU CLONED, see below if you did not clone):
+#### Step 2 (YOU CLONED, see below if you did not clone):
 
 Add the downloaded **json_jar** file from prerequisites to the build path.
 
@@ -24,9 +24,9 @@ Follow following steps to add a jar file to build path for Eclipse :
 3. Click the Libraries tab.
 4. Click "Add External JARs", select the JAR file that you downloaded, then click OK.
    
-Now you can simply run the EndUser class in the default package to use your KVStore.This is the end.
+Now you can simply run the EndUser class in the default package to use your KVStore.Skip all the steps below and go to methods.
 
-##### Step 2 (YOU DID NOT CLONE,using kvstore_JAR):
+#### Step 2 (YOU DID NOT CLONE,using kvstore_JAR):
 
 + So you do not want to clone my repo,it is fine :(
    + Create a java project.
@@ -40,12 +40,12 @@ Now you can simply run the EndUser class in the default package to use your KVSt
 4. Click "Add External JARs", select the JAR file that you downloaded, then click OK.
    
 
-##### Step 3
+#### Step 3
 Create a KVStore object.
 
 `KVStore obj = new KVStore();`
 
-##### Step 4:
+#### Step 4:
 Initialise JSON object with the json value you want.
 This initialisation might throw JSONException,so you might have to deal with that.
 After creating the JSON object,you can now call the methods that you want(Create,Read,Delete)
