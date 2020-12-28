@@ -3,7 +3,7 @@
 #### How to use?
 
 ###### Step 1:
-After creating a new class and importing the kvstore(or you can use the EndUser class that I have created in the default package).
+After cloning the repository.Create a new class and import the kvstore package or you can make use of the EndUser class in the default package.
 Create a KVStore object.
 
 `KVStore obj = new KVStore();`
