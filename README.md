@@ -1,9 +1,10 @@
 # File-based Key-Value Store(JAVA)
 
-#### How to use?
 #### Prerequisites
 1. Java JDK.
 2. You need to download the json-jar file from https://code.google.com/archive/p/org-json-java/downloads.
+
+### How to use?
 
 #### Step 1:
 If you do not want to clone,go to step 2.Clone this repository to any desired location on your system:
