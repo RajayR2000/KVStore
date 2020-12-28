@@ -6,13 +6,20 @@
 2. You need to download the json-jar file from https://code.google.com/archive/p/org-json-java/downloads.
 
 ###### Step 1:
-Clone this repository to any desired location on your system:
+If you do not want to clone,go to step 2.Clone this repository to any desired location on your system:
 
 `https://github.com/RajayR2000/KVStore.git` 
 
-or download as a zip file and extract.Now ,add the downloaded jar file from prerequisites to the build path.
+or download as a zip file and extract.
 
-Follow following steps to add jar file to build path for Eclipse : 
+##### Step 2 :
+If you skipped step 1:
+   + So you do not want to clone my repo,it is fine :(
+   + You can just download the kdstore_JAR file from my repo.And Add kdstore_JAR file as well as the jsonjar(See Prerequisites) file to your project's build path by following the below instructions.
+   
+Now ,add the downloaded jar file from prerequisites to the build path.
+
+Follow following steps to add a jar file to build path for Eclipse : 
 
 1. Right-click the project folder and click Properties.
 2. Click Java Build Path in the left pane.
@@ -21,13 +28,13 @@ Follow following steps to add jar file to build path for Eclipse :
    
 
 
-###### Step 2:
+###### Step 3:
 Create a new class and import the kvstore package or you can run the EndUser class in the default package and ignore step 2 & 3.
 Create a KVStore object.
 
 `KVStore obj = new KVStore();`
 
-###### Step 3:
+###### Step 4:
 Initialise JSON object with the json value you want.
 This initialisation might throw JSONException,so you might have to deal with that.
 After creating the JSON object,you can now call the methods that you want(Create,Read,Delete)
