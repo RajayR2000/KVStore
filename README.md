@@ -16,7 +16,7 @@ Follow following steps to add jar file to build path for Eclipse :
 1. Right-click the project folder and click Properties.
 2. Click Java Build Path in the left pane.
 3. Click the Libraries tab.
-4. Click Add JARs, select the JAR file that you downloaded, then click OK.
+4. Click "Add External JARs", select the JAR file that you downloaded, then click OK.
    
 
 
